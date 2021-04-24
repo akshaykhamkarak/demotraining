@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Created-By: Apache Maven
+Built-By: DELL
+Build-Jdk: 15.0.2
+Implementation-Title: demotraining - UI content
+Implementation-Version: 1.0-SNAPSHOT
+Implementation-Vendor-Id: com.aem.demo
+Content-Package-Roots: /conf/demotraining,/content/dam/demotraining,/con
+ tent/demotraining
+Content-Package-Description: UI content package for demotraining
+Content-Package-Id: demotraining:demotraining.ui.content:1.0-SNAPSHOT
+Content-Package-Type: content
+

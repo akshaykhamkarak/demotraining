@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+Created-By: Apache Maven
+Built-By: DELL
+Build-Jdk: 15.0.2
+Implementation-Title: demotraining - UI apps
+Implementation-Version: 1.0-SNAPSHOT
+Implementation-Vendor-Id: com.aem.demo
+Content-Package-Roots: /apps/demotraining,/etc/packages/adobe/cq60/core.
+ wcm.components.all-2.5.0.zip,/etc/packages/adobe/cq60/core.wcm.componen
+ ts.examples-2.5.0.zip
+Content-Package-Description: UI apps package for demotraining
+Content-Package-Id: demotraining:demotraining.ui.apps:1.0-SNAPSHOT
+Import-Package: com.adobe.cq.sightly;version="[3.2.0,4.0.0)",org.apache.
+ sling.api;version="[2.3.3,3.0.0)",org.apache.sling.scripting.sightly.po
+ jo;version="[1.0.1,2.0.0)"
+Content-Package-Type: mixed
+
