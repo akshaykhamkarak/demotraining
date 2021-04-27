@@ -1,0 +1,44 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1619511736280
+Bundle-Category: demotraining
+Bundle-Description: Core bundle for demotraining
+Bundle-ManifestVersion: 2
+Bundle-Name: demotraining - Core
+Bundle-SymbolicName: demotraining.core
+Bundle-Version: 1.0.0.20210427082216280
+Created-By: 15.0.2 (Oracle Corporation)
+Export-Package: com.aem.demo.core.filters;version="1.0";uses:="javax.s
+ ervlet",com.aem.demo.core.listeners;version="1.0";uses:="org.osgi.ser
+ vice.event",com.aem.demo.core.models;version="1.0";uses:="javax.annot
+ ation,org.apache.sling.api.resource,org.apache.sling.models.annotatio
+ ns,org.apache.sling.models.annotations.injectorspecific",com.aem.demo
+ .core.schedulers;version="1.0",com.aem.demo.core.servlets;version="1.
+ 0";uses:="javax.servlet,org.apache.sling.api,org.apache.sling.api.ser
+ vlets"
+Import-Package: com.aem.demo.core.filters;version="[1.0,2)",com.aem.de
+ mo.core.listeners;version="[1.0,2)",com.aem.demo.core.schedulers;vers
+ ion="[1.0,2)",com.aem.demo.core.servlets;version="[1.0,2)",com.day.cq
+ .wcm.api;version="[1.27,2)",javax.annotation;version="[1.3,2)",javax.
+ inject;version="[1.0,2)",javax.servlet;version="[3.1,4)",org.apache.s
+ ling.api;version="[2.3,3)",org.apache.sling.api.request;version="[2.4
+ ,3)",org.apache.sling.api.resource;version="[2.11,3)",org.apache.slin
+ g.api.servlets;version="[2.2,3)",org.apache.sling.models.annotations;
+ version="[1.5,2)",org.apache.sling.models.annotations.injectorspecifi
+ c;version="[1.1,2)",org.apache.sling.settings;version="[1.3,2)",org.o
+ sgi.service.event;version="[1.3,2)",org.slf4j;version="[1.7,2)"
+Provide-Capability: osgi.service;objectClass:List<String>="java.lang.R
+ unnable",osgi.service;objectClass:List<String>="javax.servlet.Filter"
+ ;uses:="javax.servlet",osgi.service;objectClass:List<String>="javax.s
+ ervlet.Servlet";uses:="javax.servlet",osgi.service;objectClass:List<S
+ tring>="org.osgi.service.event.EventHandler";uses:="org.osgi.service.
+ event"
+Require-Capability: osgi.extender;filter:="(&(osgi.extender=osgi.compo
+ nent)(version>=1.4.0)(!(version>=2.0.0)))",osgi.ee;filter:="(&(osgi.e
+ e=JavaSE)(version=1.8))"
+Service-Component: OSGI-INF/com.aem.demo.core.filters.LoggingFilter.xm
+ l,OSGI-INF/com.aem.demo.core.listeners.SimpleResourceListener.xml,OSG
+ I-INF/com.aem.demo.core.schedulers.SimpleScheduledTask.xml,OSGI-INF/c
+ om.aem.demo.core.servlets.SimpleServlet.xml
+Sling-Model-Packages: com.aem.demo.core.models
+Tool: Bnd-5.1.0.202006012012
+

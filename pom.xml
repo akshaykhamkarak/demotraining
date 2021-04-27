@@ -2,7 +2,7 @@
 <!--
  |  Copyright 2015 Adobe Systems Incorporated
  |
- |  Licensed under the Apache License, Version 2.0 (the "License");
+ |  Licensed under the Apache License, Version 1.0 (the "License");
  |  you may not use this file except in compliance with the License.
  |  You may obtain a copy of the License at
  |
@@ -43,7 +43,7 @@
         <vault.user>admin</vault.user>
         <vault.password>admin</vault.password>
         <core.wcm.components.version>2.5.0</core.wcm.components.version>
-        <bnd.version>4.2.0</bnd.version>
+        <bnd.version>5.1.0</bnd.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
     </properties>

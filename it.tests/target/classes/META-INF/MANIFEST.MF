@@ -1,0 +1,19 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1619511737171
+Bundle-Category: demotraining
+Bundle-Description: Bundles for Integration Tests for demotraining
+Bundle-ManifestVersion: 2
+Bundle-Name: demotraining - Integration Tests Bundles
+Bundle-SymbolicName: demotraining.it.tests
+Bundle-Version: 1.0.0.20210427082217171
+Created-By: 15.0.2 (Oracle Corporation)
+Export-Package: com.aem.demo.it.tests;version="1.0";uses:="org.apache.
+ sling.junit.annotations,org.junit,org.junit.runner"
+Import-Package: com.aem.demo.core.models;version="[1.0,2)",org.apache.
+ sling.api.resource;version="[2.11,3)",org.apache.sling.junit.annotati
+ ons;version="[1.0,2)",org.apache.sling.settings;version="[1.3,2)",org
+ .junit;version="[4.8,5)",org.junit.runner;version="[4.8,5)"
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+Sling-Test-Regexp: .*Test
+Tool: Bnd-5.1.0.202006012012
+

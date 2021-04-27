@@ -1,1 +1,9 @@
-<h1>Hello top nav ak</h1>
+<div data-sly-use.details="com.aem.demo.core.models.GetInfos">
+	Hello top nav ak </div>
+<p>First name:${details.name}</p>
+<p>Mark:${details.mark}</p>
+
+<div data-sly-list.item="${details.authorBooks}">
+
+<p>Book:<b>${item}</b></p>
+</div>
