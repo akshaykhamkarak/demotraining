@@ -1,11 +1,11 @@
 Manifest-Version: 1.0
-Bnd-LastModified: 1619511736280
+Bnd-LastModified: 1619512057744
 Bundle-Category: demotraining
 Bundle-Description: Core bundle for demotraining
 Bundle-ManifestVersion: 2
 Bundle-Name: demotraining - Core
 Bundle-SymbolicName: demotraining.core
-Bundle-Version: 1.0.0.20210427082216280
+Bundle-Version: 1.0.0.20210427082737744
 Created-By: 15.0.2 (Oracle Corporation)
 Export-Package: com.aem.demo.core.filters;version="1.0";uses:="javax.s
  ervlet",com.aem.demo.core.listeners;version="1.0";uses:="org.osgi.ser
