@@ -2,9 +2,11 @@ package com.aem.demo.core.models;
 
 import java.util.List;
 
-public interface GetInfos {
+public interface CodeChallenge {
+
 	String getName();
-String getLastname();
+	//Boolen isAvaiable();
+	
 	int getMark();
 
 	List<String> getBooks();

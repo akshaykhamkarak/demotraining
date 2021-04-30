@@ -1,1 +1,0 @@
-this one is the first custome compoenet.

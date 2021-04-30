@@ -1,3 +1,4 @@
+com\aem\demo\core\models\CodeChallengeImpl.class
 com\aem\demo\core\servlets\package-info.class
 com\aem\demo\core\models\GetInfoImpls.class
 com\aem\demo\core\schedulers\SimpleScheduledTask$Config.class
@@ -7,6 +8,7 @@ com\aem\demo\core\schedulers\package-info.class
 com\aem\demo\core\listeners\package-info.class
 com\aem\demo\core\filters\LoggingFilter.class
 com\aem\demo\core\listeners\SimpleResourceListener.class
+com\aem\demo\core\models\CodeChallenge.class
 com\aem\demo\core\models\GetInfos.class
 com\aem\demo\core\models\package-info.class
 com\aem\demo\core\servlets\SimpleServlet.class
