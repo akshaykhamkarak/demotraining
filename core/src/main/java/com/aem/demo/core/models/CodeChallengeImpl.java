@@ -22,7 +22,8 @@ public class CodeChallengeImpl implements CodeChallenge {
 	
 	@ValueMapValue
 	int mark;
-	
+	@ValueMapValue
+	boolean gender;
 	@ValueMapValue
 	private List<String>books;
 	@Override
@@ -44,6 +45,8 @@ public class CodeChallengeImpl implements CodeChallenge {
 	else
 		return Collections.emptyList();
 	}
+
+	
 
 	
 }
