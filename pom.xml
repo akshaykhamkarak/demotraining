@@ -218,14 +218,14 @@
                     </executions>
                 </plugin>
                 <!-- Jackrabbit FileVault Package Plugin -->
-                <plugin>
+             <!--    <plugin>
                     <groupId>org.apache.jackrabbit</groupId>
                     <artifactId>filevault-package-maven-plugin</artifactId>
                     <version>3.4.10</version>
                     <configuration>
                         <filterSource>src/main/content/META-INF/vault/filter.xml</filterSource>
                     </configuration>
-                </plugin>
+                </plugin> --> 
                 <!-- Content Package Plugin -->
                 <plugin>
                     <groupId>com.day.jcr.vault</groupId>
