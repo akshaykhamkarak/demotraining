@@ -5,7 +5,7 @@ import java.util.List;
 public interface CodeChallenge {
 
 	String getName();
-	//Boolen isAvaiable();
+	//Boolean isAvaiable();
 	
 	int getMark();
 

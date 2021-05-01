@@ -4,7 +4,7 @@
 <comment>demotraining - UI content</comment>
 <entry key="allowIndexDefinitions">false</entry>
 <entry key="acHandling">merge_preserve</entry>
-<entry key="created">2021-04-30T19:28:01.528+05:30</entry>
+<entry key="created">2021-05-01T21:53:46.791+05:30</entry>
 <entry key="groupId">com.aem.demo</entry>
 <entry key="description">UI content package for demotraining</entry>
 <entry key="version">1.0-SNAPSHOT</entry>

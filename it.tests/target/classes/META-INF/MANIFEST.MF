@@ -1,12 +1,12 @@
 Manifest-Version: 1.0
-Bnd-LastModified: 1619791083455
+Bnd-LastModified: 1619886423348
 Bundle-Category: demotraining
 Bundle-Description: Bundles for Integration Tests for demotraining
 Bundle-ManifestVersion: 2
 Bundle-Name: demotraining - Integration Tests Bundles
 Bundle-SymbolicName: demotraining.it.tests
-Bundle-Version: 1.0.0.20210430135803455
-Created-By: 11.0.10 (Oracle Corporation)
+Bundle-Version: 1.0.0.20210501162703348
+Created-By: 15.0.2 (Oracle Corporation)
 Export-Package: com.aem.demo.it.tests;version="1.0";uses:="org.apache.
  sling.junit.annotations,org.junit,org.junit.runner"
 Import-Package: com.aem.demo.core.models;version="[1.0,2)",org.apache.
